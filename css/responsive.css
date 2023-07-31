@@ -1,0 +1,442 @@
+@media (max-width:500px) {
+
+    /* //nav  */
+    #nav{
+        height: 8vh;
+        /* background-color: rgb(138, 138, 138); */
+    }
+    .nav-right a{
+        padding: 9px 15px;
+        font-size: 1.7vmax;
+    }
+    .online{
+        display: none;
+    }
+    .nav-right .book{
+        background-color: #434B34;
+        color: white;
+    }
+    .nav-center .responsive-svg{
+        width: 130%;
+        display: block;
+    }
+    .nav-center .desktop-svg{
+        width: 70%;
+        display: none;
+    }
+    #menu{
+        width: 25px;
+        height: 20px;
+    }
+
+
+    /* // page 2  */
+    #page2{
+        height: 120vh;
+    }
+    #page2 h1{
+        font-size: 4.5vmax;
+        width: 90%;
+    }
+    #page2 .desktop-h1{
+        display: none;
+    }
+    #page2 .responsive-h1{
+        display: block;
+    }
+
+
+    /* // page 4  */
+    #page4{
+        height: 100vh;
+    }
+    .page4-top{
+        height: 30vh;
+    }
+    .page4-top h1{
+        width: 90%;
+        font-size: 4vmax;
+    }
+    .page4-bottom{
+        height: 75vh;
+
+    }.page4-right{
+        justify-content: start;
+
+    }
+    .page4-left-top{
+        height: 27%;
+
+    }.page4-left-top p{
+        width: 100%;
+        font-size: 1.7vmax;
+        color: #434B34;
+    }
+    .page4-left-top a{
+        width: 100%;
+        font-size:1.6vmax;
+    }
+    .page4-left-img1{
+        height: 40%;
+    }
+    .page4-right-img2{
+        height: 46%;
+    }.page4-right-img3{
+        width: 100%;
+        height: 20%;
+    }
+
+
+    /* // page 5  */
+    #page5{
+        width: 100%;
+        height: 80vh;
+    }
+    .page5-card{
+        width: 95%;
+        height: 12vh;
+        justify-content: space-between;
+    }
+    .page5-card:first-child{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }.page5-card:last-child{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .page5-card-left{
+        width: 80%;
+        left:-35%;
+    }
+    .page5-card-left-left{
+        width: 40%;
+        height:  100%;
+    }
+    .page5-card-left-right{
+        padding-left: 20px;
+        gap: 5px;
+    }.page5-card-left-right h2{
+        font-size: 2vmax;
+    }.page5-card-left-right p{
+        font-size: 1.4vmax;
+        color: #434B34;
+    }
+    .page5-card-right{
+        width: 20%;
+    }
+    .page5-count{
+        width: 35px;
+        height: 20px;
+        bottom: 10px;
+        right: 15px;
+    }
+    .page5-count p{
+        font-size: 1.5vmax;
+    }
+
+
+
+    /* // page 6  */
+    #page6{
+        width: 100%;
+        height: 130vh;
+    }
+    .page6-first{
+        width: 100%;
+        height: 25vh;
+        /* background-color: #65714F; */
+        gap: 20px;
+    }
+    .page6-first h1{
+        font-size: 4.5vmax;
+        width: 100%;
+        line-height: 1;
+    }
+    .page6-first p{
+        width: 90%;
+        font-size:1.7vmax;
+    }
+    .page6-second{
+        width: 100%;
+        height: 80vh;
+        padding: 0 5%;
+        flex-direction: column;
+    }
+    .page6-second a{
+        bottom: 0px;
+    }
+    .page6-second-left{
+        width: 100%;
+        height: 43%;
+        justify-content: center;
+    }.page6-second-right{
+        width: 100%;
+        height: 65%;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .page6-second-right .card6,.page6-second-left .card6{
+        width: 90vw;
+        height: 33vh;
+        gap: 20px;
+        /* background-color: #65714F; */
+    }
+    #card61{
+        margin-top: 0%;
+    }
+    .card-img{
+        height: 55%;
+        border-radius: 7px;
+    }
+    .card-contain{
+        gap: 10PX;
+    }
+    .card-contain h1{
+        font-size: 2.4vmax;
+    }
+    .card-contain p{
+        font-size: 1.4vmax;
+        color: rgb(204, 204, 204);
+    }
+
+
+
+    /* // page 7  */
+    #page7{
+        width: 100%;
+        height: 50vh;
+    }
+    #page7 h1{
+        width: 90%;
+        margin-top: 80px;
+    }
+
+
+    /* // page 8  */
+    #page8{
+        width: 100%;
+        height: 70vh;
+        gap: 5%;
+    }
+    .img81{
+        width: 50%;
+        height: 80%;
+    }.img82{
+        width: 50%;
+        height: 80%;
+    }
+    .center8{
+        width: 38%;
+        height: 65%;
+    }
+    .center8 h1{
+        font-size: 4.1vmax;
+    }
+    .center8 p{
+        width:100%;
+        font-size: 1.4vmax;
+    }
+    .center8 a{
+        font-size: 1.8vmax;
+    }
+
+    .center8 a span{
+        padding: 2px 10px;
+        font-size: 1.2vmax;
+    }
+
+    /* /// page 9  */
+    #page9{
+        height: 100vh;
+    }
+
+
+    /* // page 10  */
+    #page10{
+        width: 100%;
+        height: 100vh;
+        padding: 20px 0;
+    }
+    .page10-top{
+        height: 30vh;
+    }
+    .page10-top h1{
+        width: 90%;
+    }
+    .page10-top span{
+        font-family: as2;
+        color: #434B34;
+    }
+    .page10-top p{
+        font-size: 1.6vmax;
+        color: rgb(205, 205, 205);
+        width: 65%;
+    }
+
+    .page10-bottom{
+        width: 100%;
+        height: 70vh;
+        bottom: 0%;
+        padding: 20px 5%;
+        flex-direction: column; 
+    }
+    .page10-left{
+        width: 100%;
+        height: 27%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+    .page10-left-top1{
+        display: none;
+        height: 0;
+    }
+    .page10-left-top{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        /* background-color: blueviolet; */
+    }
+    .page10-right{
+        width: 100%;
+        height: 27%;
+        flex-direction: column;
+    }
+    .page10-center{
+        width: 100%;
+        height: 27%;
+        border-radius: 5px;
+    }
+    .page10-left-top2{
+        display: none;
+    }
+
+    /* // page 11  */
+    #page11{
+        height: 25vh;
+    }
+    #page11 h1{
+        font-size: 5vmax;
+    }
+    #page11 p{
+        width: 65%;
+        font-size: 1.4vmax;
+    }
+
+    /* // page12 / */
+    #page12{
+        width: 100%;
+        height: 45vh;
+        margin-bottom: 20px;
+        
+    }
+    .page12-left{
+        width: 50%;
+        height: 100%;
+        border-radius:7px;
+    }.page12-right{
+        width: 50%;
+        height: 100%;
+        border-radius: 7px;
+    }
+    #page12 h1{
+        font-size: 3vmax;
+    }#page12 .page12-left h1,#page12 .page12-left p,#page12 .page12-left a{
+        margin-left: 0px;
+    }#page12 .page12-right h1,#page12 .page12-right p,#page12 .page12-right a{
+        margin-left: 30px;
+    }
+    #page12 p{
+        font-size: 1.4vmax;
+        width: 100%;
+        margin-left: 5px;
+    }#page12 a{
+        font-size: 2vmax;
+        margin-top: 20px;
+    }
+    #page12 a span{
+        font-size: 1.4vmax;
+        padding: 3px 17px;
+    }
+
+
+    /* // page 12  */
+    #page13{
+        height:50vh;
+        justify-content: center;
+    }
+    #page13 img{
+        height: 120%;
+    }
+    .page13-bottom{
+        width: 95%;
+        height: 13vh;
+        border-radius: 10px;
+        padding: 0 4%;
+    }
+    .page13-bottom h1{
+        font-size: 3.1vmax;
+    }.page13-bottom a{
+        font-size: 2vmax;
+    }.page13-bottom a span{
+        font-size: 2vmax;
+        padding: 0px 15px;
+    }
+
+
+    /* // page 14 footer  */
+    #page14{
+        height: 50vh;
+    }
+    #page14 .page14-bg{
+        width: 100%;
+        height: 100%;
+        height: auto;
+    }
+    .page14-cover{
+        padding: 0 4%;
+    }
+    .page14-first{
+        height: 25%;
+    }
+    .page14-first .u-icon{
+        width: 35%;
+        margin-left: 7vh;
+    }
+    .page14-first img{
+        width: 40px;
+    }
+    .page14-second{
+        height: 15%;
+    }
+    .pomena{
+        display: none;
+    }
+    .reservation{
+        justify-content: left;
+    }
+    .page14-second a{
+        font-size: 1.7vmax;
+        white-space: nowrap;
+    }
+    .page14-third{
+        height: 25%;
+    }
+    .page14-third a{
+        font-size: 1.6vmax;
+    }
+    .page14-forth a{
+        font-size: 1.6vmax;
+    }
+    .page14-fiveth{
+        width: 100%;
+        height: 20%;
+    }
+    .page14-fiveth a{
+        color: rgb(213, 213, 213);
+        font-size: 1.4vmax;
+        font-family: as1;
+    }
+
+
+}
