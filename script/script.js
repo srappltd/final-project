@@ -384,6 +384,19 @@ function Page10(){
             opacity:0
         });
     });
+
+    gsap.from("#page10 a",{
+        scrollTrigger:{
+            trigger:"#page10 a",
+            scroller:"#main",
+            // markers:true,
+            start:"top 90%",
+            end:"top 70%",
+            scrub:true,
+        },
+        y:50,
+        opacity:0
+    })
 }
 
 function Page11(){
@@ -409,7 +422,8 @@ function Page11(){
         },
         y:50,
         opacity:0
-    })
+    });
+    
 }
 
 function Page12(){
@@ -429,4 +443,19 @@ function Page12(){
     })
 }
 
+page13();
+function page13(){
+    gsap.from(".page13-bottom",{
+        y:100,
+        opacity:0,
+        scrollTrigger:{
+            trigger:".page13-bottom",
+            scroller:"#main",
+            // markers:true,
+            scrub:true,
+            start:"top 90%",
+            end:"top 70%",
+        }
+    })
+}
 
