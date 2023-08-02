@@ -1,6 +1,7 @@
 Loco();
 Menu();
 Gsap();
+Page2();
 Page3();
 Page4();
 Page5();
@@ -134,7 +135,7 @@ function Gsap(){
     })
 }
 
-function Page3(){
+function Page2(){
     document.querySelectorAll("#page2 h1").forEach(elem=>{
         var clt = "";
         elem.textContent.split("").forEach((elm)=>{
@@ -170,6 +171,20 @@ function Page3(){
         });
     })
     
+}
+
+function Page3(){
+    gsap.to("#page3 svg",{
+        scrollTrigger:{
+            trigger:"#page3 svg",
+            scroller:"#main",
+            start:"top 110%",
+            end:"top -40%",
+            scrub:true,
+            // markers:true
+        },
+        left:"-140vw"
+    })
 }
 
 function Page4(){
@@ -249,6 +264,36 @@ function Page6(){
         duration:2,
         color:"white"
     });
+
+    // svg scroll 
+    document.querySelectorAll(".page6-top svg").forEach(elem=>{
+        gsap.to(elem,{
+            scrollTrigger:{
+                trigger:elem,
+                scroller:"#main",
+                start:"top 110%",
+                end:"top -40%",
+                scrub:1,
+                // markers:true
+            },
+            left:"-140vw"
+        })
+    })   
+    document.querySelectorAll(".page9-bottom svg").forEach(elems=>{
+        gsap.to(elems,{
+            scrollTrigger:{
+                trigger:elems,
+                scroller:"#main",
+                start:"top 110%",
+                end:"top -40%",
+                scrub:1,
+                // markers:true
+            },
+            left:"-140vw"
+        })
+    })
+    
+    
 
 
     // card

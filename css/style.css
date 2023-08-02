@@ -174,7 +174,7 @@ html,body{
     /* background-color: rgb(191, 0, 255); */
 }
 #page3 svg{
-    width: 100%;
+    width: 300vw;
     /* white-space: nowrap; */
     height:100%;
     bottom: 10px;
@@ -185,6 +185,7 @@ html,body{
     fill: #65714F;
     z-index: 99;
     position: relative;
+    left: -50vw;
 }.page3-bottom{
     fill: #e3e3c4;
 }
@@ -437,7 +438,7 @@ html,body{
 }
 .page6-top svg{
     position: absolute;
-    width: 100%;
+    width: 300vw;
     height: 100%;
 }
 
@@ -649,7 +650,7 @@ html,body{
     /* background-color: #043F5D; */
 }
 .page9-bottom svg{
-    width: 100%;
+    width: 300vw;
     height: 100%;
     rotate: 180deg;
     position: absolute;
