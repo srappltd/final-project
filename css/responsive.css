@@ -29,6 +29,20 @@
         height: 20px;
     }
 
+    /* // page 3  */
+    #page3{
+        width: 100%;
+        /* height: 100vh; */
+        position: relative;
+        height: 25vh;
+        position: relative;
+        top: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rgb(191, 0, 255); */
+    }
 
     /* // page 2  */
     #page2{
@@ -197,6 +211,12 @@
     .card-contain p{
         font-size: 1.4vmax;
         color: rgb(204, 204, 204);
+    }
+
+    .page6-top-res1{
+        top: 20px;
+    }.page6-top-res2{
+        top: -40px;
     }
 
 
