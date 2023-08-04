@@ -1,4 +1,4 @@
-@media (max-width:500px) {
+@media (min-width:310px) and (max-width:600px) {
 
     /* //nav  */
     #nav{
@@ -217,6 +217,9 @@
         top: 20px;
     }.page6-top-res2{
         top: -40px;
+    }
+    .page9-bottom{
+        bottom: -20px;
     }
 
 
