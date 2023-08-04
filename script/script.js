@@ -504,14 +504,17 @@ function page13(){
     })
 }
 
+Slider();
+function Slider(){
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+    });
+}
 
-var swiper = new Swiper(".mySwiper", {
-    pagination: {
-    el: ".swiper-pagination",
-    type: "fraction",
-    },
-    navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-    },
-});
