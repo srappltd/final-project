@@ -112,11 +112,11 @@ function Gsap(){
     });
     var tl = gsap.timeline();
     tl.from("#nav .desktop-svg",{
-        top:"-50px",
+        top:"-200px",
         duration:1,
         opacity:0
     }).from("#nav .responsive-svg",{
-        top:"-100px",
+        top:"-70px",
         duration:1,
         opacity:0
     }).to(".img-page1",{
@@ -506,14 +506,26 @@ function page13(){
 
 Slider();
 function Slider(){
+    gsap.from("#slider",{
+        y:50,
+        opacity:0,
+        scrollTrigger:{
+            trigger:"#slider",
+            scroller:"#main",
+            scrub:true,
+            start:"top 95%",
+            end:"top 80%",
+        }
+    })
     var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
         pagination: {
-        el: ".swiper-pagination",
-        type: "fraction",
+            el: ".swiper-pagination",
+            type:"fraction",
         },
         navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
     });
 }
