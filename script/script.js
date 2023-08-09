@@ -12,6 +12,39 @@ Page10();
 Page11();
 Page12();
 
+document.addEventListener("wheel",(dets)=>{
+    if(dets.deltaY > 0){
+        gsap.to("#nav",{
+            scrollTrigger:{
+                trigger:"#nav",
+                scroll:"body",
+                scrub:true,
+                start:"top 0%",
+                end:"top -20%"
+            },
+            top:"-15vh",
+            ease:Expo.ease,
+            duration:.5,
+        })
+        // console.log(dets.deltaY)
+    }else{
+        gsap.to("#nav",{
+            scrollTrigger:{
+                trigger:"#nav",
+                scroll:"body",
+                scrub:true,
+                start:"top 0%",
+                end:"top -20%"
+            },
+            top:"0vh",
+            duration:.5,
+            ease:Expo.ease,
+            backgroundColor:"white",
+        })
+        // console.log(dets.deltaY)
+    }
+})
+
 function Loco(){
     gsap.registerPlugin(ScrollTrigger);
 
@@ -108,7 +141,8 @@ function Gsap(){
             scrub:true
         },
         top:"-15vh",
-        duration:2
+        duration:2,
+        background:"tranparent"
     });
     var tl = gsap.timeline();
     tl.from("#nav .desktop-svg",{
@@ -529,4 +563,5 @@ function Slider(){
         },
     });
 }
+
 
