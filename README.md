@@ -1,9 +1,4 @@
 # final-project
-# Preview website Video
-<div>
-                  <video src="[assets/_VID_20230805_114750.mp4](https://firebasestorage.googleapis.com/v0/b/b24--project.appspot.com/o/B24%2F_VID_20230805_114750.mp4?alt=media&token=18bb060d-eaeb-42ad-89cb-3fa556725135)" loop muted autoplay></video>
-
-</div>
-
-https://firebasestorage.googleapis.com/v0/b/b24--project.appspot.com/o/B24%2F_VID_20230805_114750.mp4?alt=media&token=18bb060d-eaeb-42ad-89cb-3fa556725135
+1[](https://firebasestorage.googleapis.com/v0/b/b24--project.appspot.com/o/img%2FScreenshot%202023-08-02%20at%2009-59-20%20document.png?alt=media&token=d0bd6a5a-c654-4748-94e4-e1d0ddaf4033)
+1[](https://firebasestorage.googleapis.com/v0/b/b24--project.appspot.com/o/img%2FScreenshot%202023-08-02%20at%2009-59-53%20document.png?alt=media&token=3d8dd056-6793-4a71-8768-4eef2e34c8b1)
  
